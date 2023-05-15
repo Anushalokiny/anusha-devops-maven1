@@ -8,7 +8,7 @@ public class HelloController {
   
   @RequestMapping("/")
   public String index() {
-      return "Greetings from Python Life DevOPS assignment ";
+      return "Greetings from Python Life DevOPS lab assignment ";
   }
 
 }
