@@ -1,4 +1,4 @@
-package com.example.anushadevopsmaven;
+package com.devops.anushadevopsmaven;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
