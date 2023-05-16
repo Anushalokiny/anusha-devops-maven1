@@ -47,7 +47,7 @@ pipeline {
 
 
                     sh 'docker build . -t anushalokiny/app31:latest'
-                    sh 'docker login -u anushalokiny -p ${DOCKER_PWD}'
+                    sh 'docker login -u anushalokiny -p ${DOCKER_TOKEN}'
                     sh 'docker push anushalokiny/app31:latest'
                     sh 'docker run -p 99:8080 -d anushalokiny/app31:latest'
                     
