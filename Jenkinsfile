@@ -42,7 +42,7 @@ pipeline {
 
                 steps {
                     
-                    withCredentials([string(credentialsId: 'DOCKERPWD', variable: 'DOCKER_PWD')]) {
+                    withCredentials([string(credentialsId: 'DOCKER_PWD', variable: 'DOCKER_TOKEN')]) {
     
 
 
